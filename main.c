@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	
 	if (argc != 4)
 	{
-		printf("Usage: %s pid startaddr endaddr\n", argv[0], argv[0]);
+		printf("Usage: %s pid startaddr endaddr\n", argv[0]);
 		exit(EXIT_FAILURE);
 	}
 	else
